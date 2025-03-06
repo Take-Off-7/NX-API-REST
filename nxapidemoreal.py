@@ -46,6 +46,8 @@ token = auth_response['imdata'][0]['aaaLogin']['attributes']['token']
 cookies={}
 cookies['APIC-cookie']=token
 
+#################### AUTOMATE DESCRIPTION FOR CDP NEIGHBORS ####################
+
 counter = 0
 nei_count = response['ins_api']['outputs']['output']['body']['neigh_count']
 print(nei_count)
