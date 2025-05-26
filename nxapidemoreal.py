@@ -3,7 +3,7 @@ import json
 import re
 
 switchuser = 'admin'
-switchpassword = 'Admin_1234!'
+switchpassword = #(your_password_goes_here)
 
 url = 'https://sbx-nxos-mgmt.cisco.com/ins'
 myheaders = {'content-type': 'applicationjson'}
@@ -33,7 +33,7 @@ auth_body = {
     'aaaUser': {
         'attributes': {
             'name': 'admin',
-            'pwd': 'Admin_1234!'
+            'pwd': #(your_password_goes_here)
         }
     }
 }
